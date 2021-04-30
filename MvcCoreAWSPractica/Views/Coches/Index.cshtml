@@ -49,8 +49,8 @@
                 @Html.DisplayFor(modelItem => item.Imagen)
             </td>
             <td>
-                
-                @Html.ActionLink("Details", "Details", new {  id=item.Idcoche  }) 
+                @Html.ActionLink("Update", "Update", new { id = item.Idcoche }) |
+                @Html.ActionLink("Details", "Details", new { id = item.Idcoche })
             </td>
         </tr>
 }
